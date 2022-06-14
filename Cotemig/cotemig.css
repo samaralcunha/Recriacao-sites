@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+
+div.cabeca>img {
+    height: 40px;
+}
+
+.cabeca {
+    height: 4em;
+    background: rgba(0, 0, 0, .75);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+}
+
+
+li {
+    display: inline-block;
+    padding-right: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+#formiguinha {
+    border-left: dashed 1px rgba(255, 255, 255, .5);
+    padding: .6rem .8rem;
+}
+
+div>h1 {
+    
+}
