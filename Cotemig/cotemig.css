@@ -35,3 +35,46 @@ li {
 div.carrosel>img {
     max-width: 85.4em;
 }
+
+div.carrosel>h1 {
+    color: white;
+    font-weight: 800;
+    position: relative;
+    bottom: 35vh;
+    left: 15vw;
+}
+
+div.carrosel>p {
+    color: white;
+    font-weight: 400;
+    position: relative;
+    bottom: 33vh;
+    left: 15vw;
+}
+
+.botton{
+    display: block;
+    background: #40aa0b;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 400;
+    width: 18em;
+    padding: 10px;
+    position: absolute;
+    bottom: 50vh;
+    left: 15vw;
+}
+
+.bolinha {
+    background: #40aa0b;
+    border-radius: 10px;
+    height: 8.5px;
+    position: relative;
+    bottom: 20vh;
+    left: 15vw;
+}
+
+#bolaBranca {
+    background: white;
+}
