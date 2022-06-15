@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 900vh;
+    max-width: 20vw;
+    position: relative;
+    top: 10px;
+    left: 20%;
+}
+
+.ble{
+    position: absolute;
+    right: 22vw;
+    top: 25px;
+}
+
+.opcoes{   
+    display: inline;
+    font-weight: 300vw;
+    font-size: 1em;
+    padding: 10px;
+    opacity: 1;
+}
+
+.opcoes:hover {
+    text-decoration: underline;
+}
+
+#home { 
+    color: #0075f6;
+    text-decoration: underline;
+}
+
+#home:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.texto {
+    position: absolute;
+    top: 22vh;
+    left: 10vw;
+    width: 30vw;
+}
+
+#hello {
+    color: #0075f6;
+    font-size: small;
+    letter-spacing: 0.2em;
+    width: 20vw;
+    position: relative;
+    top: 3em;
+    left: 18em;
+}
+
+.apresentacao {
+    z-index: 2;
+    font-size: 35px;
+    width: 50vw;
+    display: inline-flex;
+    position: relative;
+    bottom: 145%;
+    left: 6.5em;
+}
+
+h1{
+    line-height: 1.2;
+}
+
+#nome {
+    color:#0075f6;
+}
+
+#ocupacao {
+    z-index: 3;
+    font-weight: 250;
+    font-size: 20px;
+    line-height: 1em;
+    position: absolute;
+    left: 11.5em;
+    top: 12em;
+}
+
+.bottom { 
+    font-size: small;
+    border: 1px solid;
+    color:#0075f6;
+    letter-spacing: 0.2em;
+    max-width: 5vw;
+    max-height: 8vh;
+    padding: 0.2em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4vh;
+    left: 18em;
+}
+
+.bottom:hover {
+    color:  black;
+    background-color: #afd5fdb0;
+}
+
+#azul{
+    background-color: #74b5fa;
+    width: 38vw;
+    height: 50vh; 
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+img {
+    width: 45vw;
+    height: 67vh;
+    z-index: 1;
+    position: absolute;
+    left: 34vw;
+    top: 10vh;
+}

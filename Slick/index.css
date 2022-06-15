@@ -1,0 +1,83 @@
+*{
+    font-family: 'Source Sans Pro', monospace;
+}
+body{
+    background-image: url('https://prium.github.io/slick/assets/images/header_showcase.jpg');
+}
+
+.titulo {
+    text-align: center;
+    font-size: 4.8rem;
+    color:#ffffff; 
+    position: relative;
+    top: 1em;
+    font-family:'Lucida Sans';
+    font-weight: 300;
+}
+.titulo b{
+    font-weight: 700;
+}
+.texto {
+    text-align: center;
+    font-size: 1.25rem;
+    color:#fff;
+    opacity: 0.75;
+    position : relative;
+    top: 20px;
+    min-width: 100%;
+    font-weight: 400;
+}
+.flex-container{
+    width: 50vw;
+    margin: auto;
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+.container{
+  text-align: center; 
+  color: #fff;
+  position: relative;
+  top: 80px;
+  display: inline;
+  border: 1px solid #fff;
+  padding: .5rem;
+  border-radius: 5px;
+  margin: 10px;
+  transition: 500ms;
+}
+.container:hover{
+    color: black;
+    background-color: white;
+    transition: 500ms;
+}
+.imagens {
+    display: inline;
+}
+
+.imagem1 {
+    max-width: 30%;
+    min-height: 50%;
+    position: relative;
+    top: 85px;
+    left: 2%;
+}
+
+.imagem2 {
+    max-width: 30%;
+    min-height: 50%;
+    position: relative;
+    top: 85px;
+    left: 7%;
+}
+
+.imagem3 {
+    width: 28%;
+    min-height: 30%;
+    position: relative;
+    top: 85px;
+    left: 10%;
+}
+
+
+

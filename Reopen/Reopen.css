@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    background-color: #ececec;
+}
+
+body>div {
+  background-color: white;
+  height: 222vh;
+}
+
+.logo{
+    padding: 80px 0;
+}
+
+.texto{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+#download {
+    color: #7e7e7e;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 36px;
+    padding: 40px 0;
+}
+
+#celular {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    left: 20vw;
+    top: 34.5em;
+    border-radius: 2px;
+}
+
+#cacto {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    left: 41vw;
+    bottom: 17.3vh;
+    border-radius: 2px;
+}
+
+#fundo { 
+    display: block;
+    position: absolute;
+    left: 62vw;
+    bottom: 17.3vh;
+    border-radius: 2px;
+}
+
+#estrela {
+    position: absolute;
+    left: 24em;
+    top: 70em;
+    border-radius: 2px;
+}
+
+#disco {
+    position: absolute;
+    left: 41vw;
+    top: 53em;
+    border-radius: 2px;
+}
+
+
+#burguer {
+    position: absolute;
+    left: 41vw;
+    top: 88em;
+    border-radius: 2px;
+}
+
+#circulo {
+    position: absolute;
+    top: 88em;
+    left: 62vw;
+    border-radius: 2px;
+}
+
+#livro {
+    position: absolute;
+    left: 24em;
+    top: 88em;
+    border-radius: 2px;
+}
+
+#xarope {
+    position: absolute;
+    left: 24em;
+    top: 106em;
+    border-radius: 2px;
+}
+
+#seta {
+    width: 6em;
+    position: absolute;
+    top: 125em;
+}
+
+#copia {
+    text-align: center;
+    font-size: 15px;
+    opacity: 2;
+    position: relative;
+    top: 75.5%;
+}
+
+#img1 {
+    z-index: 1;
+    opacity: 0;
+    background: white; 
+    text-align: center;
+    width: 18vw;
+    height: 500px;
+    position: absolute;
+    right: 10px; 
+    top: 10px;
+    transition: 0.5s;
+}
+
+#img1:hover {
+    opacity: 100%;
+}
+
+#img2{
+    z-index: 2;
+    opacity: 0;
+    background: white;
+    height: 19vh;
+    width: 16vw;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 35px;
+    bottom: 17.3vh;
+    transition: 0.5s;
+}
+
+#img2:hover{
+    opacity: 100%;
+}
+
+#img3 {
+    opacity: 0;
+    background: white;
+    height: 19vh;
+    width: 16vw;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 33px;
+    transition: 0.5s;
+}
+
+#img3:hover {
+    opacity: 100%;
+}
+
+#img4 {
+    opacity: 0;
+    background: white;
+    height: 19vh;
+    width: 16vw;
+    position: absolute;
+    right: 33px;
+    top: 35px;
+    transition: 0.5s;
+}
+
+#img4:hover{
+    opacity: 100%;
+}
+
+#img5{
+    opacity: 0;
+    background: white;
+    font-weight: 100;
+    height: 47vh;
+    width: 37vw;
+    position: absolute;
+    left: 30px;
+    top: 35px;
+    transition: 0.5s;
+}
+
+#img5:hover {
+    opacity: 100%;
+}
+
+#img6 {
+    opacity: 0;
+    background: white;
+    height: 19vh;
+    width: 16vw;
+    position: absolute;
+    right: 33px;
+    top: 35px;
+    transition: 0.5s;
+}
+
+#img6:hover {
+    opacity: 100%;
+}
+
+#img7 {
+    opacity: 0;
+    background: white;
+    width: 15vw;
+    height: 47vh;
+    position: absolute;
+    right: 40px;
+    top: 37px;
+    transition: 0.5s;
+}
+
+#img7:hover {
+    opacity: 100%;
+}
+
+#img8 {
+    opacity: 0;
+    background: white;
+    width: 16vw;
+    height: 47vh;
+    position: absolute;
+    right: 35px;
+    top: 37px;
+    transition: 0.5s;
+}
+
+#img8:hover {
+    opacity: 100%;
+}
+
+#img9 {
+    opacity: 0;
+    background: white;
+    height: 19vh;
+    width: 16vw;
+    position: absolute;
+    right: 36px;
+    top: 37px;
+    transition: 0.5s;
+}
+
+#img9:hover {
+    opacity: 100%;
+}
+
+#img1>p {
+    font-weight: 100;
+    font-size: small;
+}
+
+#img2>p {
+    font-weight: 100;
+    font-size: small;
+}
+
+#img3>p {
+    font-weight: 100;
+    font-size: small;
+}
+
+#img4>p {
+    font-weight: 100;
+    font-size: small;
+}
+
+#img5>p {
+    font-weight: 100;
+    font-size: small;
+}
+
+#img6>p {
+    font-weight: 100;
+    font-size: small;
+}
+
+#img7>p {
+    font-weight: 100;
+    font-size: small;
+}
+
+#img8>p {
+    font-weight: 100;
+    font-size: small;
+}
+
+#img9>p {
+    font-weight: 100;
+    font-size: small;
+}
+.coracao{
+    color: #f277ae;
+}
