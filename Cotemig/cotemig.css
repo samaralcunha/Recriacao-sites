@@ -32,6 +32,6 @@ li {
     padding: .6rem .8rem;
 }
 
-div>h1 {
-    
+div.carrosel>img {
+    max-width: 85.4em;
 }
