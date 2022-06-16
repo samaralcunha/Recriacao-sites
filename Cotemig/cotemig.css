@@ -78,3 +78,15 @@ div.carrosel>p {
 #bolaBranca {
     background: white;
 }
+
+.ombro {
+    text-align: center;
+    
+    font-size: 24px;
+}
+
+div.ombro>p {
+    font-weight: 300;
+    font-size: 20px
+}
+
