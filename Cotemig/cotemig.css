@@ -36,7 +36,7 @@ li:hover{
 
 
 #formiguinha {
-    border-left: dashed 1px rgba(255, 255, 255, .5);
+    border-left: dashed 1px rgba(121, 120, 120, 0.5);
     padding: .6rem .8rem;
 }
 
@@ -79,7 +79,7 @@ div.carrosel>p {
     border-radius: 10px;
     height: 8.5px;
     position: relative;
-    bottom: 20vh;
+    bottom: 25vh;
     left: 15vw;
 }
 
@@ -93,6 +93,7 @@ div.carrosel>p {
 }
 
 div.ombro>p {
+    text-align: center;
     font-weight: 300;
     font-size: 20px
 }
@@ -116,9 +117,10 @@ div.curso1>img {
 
 div.curso1>h1 {
    color: white;
-   font-weight: 300;
-   font-size: 30px;
-   ;
+   font-weight: 700;
+   font-size: 25px;
+   position: absolute;
+   left: 11vw;
 }
 
 .curso2 { 
@@ -129,14 +131,14 @@ div.curso1>h1 {
 div.curso2>img {
     position: relative;
     left: 11vw;
-    top: 10vh;
+    top: 11vh;
     width: 3vw;
     height: 5vh;
-    padding: 5px;
+    border-radius: 5px;
 }
 
 div.curso2>p {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1em; 
     position: relative;
     left: 12vw;
