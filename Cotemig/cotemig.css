@@ -100,14 +100,25 @@ div.ombro>p {
 .cursos {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 div.curso1>img {
+    z-index: -1;
     position: relative;
     left: 10vw;
     top: 10vh;
     width: 20vw;
     height: 25vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.curso1>h1 {
+   color: white;
+   font-weight: 300;
+   font-size: 30px;
+   ;
 }
 
 .curso2 { 
@@ -121,7 +132,6 @@ div.curso2>img {
     top: 10vh;
     width: 3vw;
     height: 5vh;
-    border-radius: 3px;
     padding: 5px;
 }
 
