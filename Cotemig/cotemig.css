@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     list-style: none;
     font-family: 'Lato', sans-serif;
@@ -25,12 +25,12 @@ li {
     display: inline-block;
     padding-right: 1.5rem;
     color: white;
-    font-weight: bold; 
+    font-weight: bold;
     transition: 0.5s;
 }
 
 
-li:hover{
+li:hover {
     color: #40aa0b;
 }
 
@@ -60,7 +60,7 @@ div.carrosel>p {
     left: 15vw;
 }
 
-.botton{
+.botton {
     z-index: 1;
     background: #40aa0b;
     color: white;
@@ -102,71 +102,117 @@ div.ombro>p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-div.curso1>img {
-    z-index: -1;
+    width: 20.5%;
     position: relative;
     left: 10vw;
     top: 10vh;
+}
+
+
+div.curso1>img {
+    z-index: -1;
     width: 20vw;
     height: 25vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    transform: scale(1);
+    bottom: 28.5vh;
 }
 
 div.curso1>h1 {
-   color: white;
-   font-weight: 700;
-   font-size: 25px;
-   position: absolute;
-   left: 11vw;
+    z-index: 1;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    
 }
 
-.curso2 { 
+.curso2 {
     display: flex;
     flex-direction: row;
-    transition: 0.2s;
-}
-
-.curso2:hover {
-    color:#40aa0b;
+    position: absolute;
+    top: 26vh;
 }
 
 div.curso2>img {
-    position: relative;
-    left: 11vw;
-    top: 11vh;
     width: 3vw;
     height: 5.5vh;
-    border-radius: 5px;
+    border-radius: 3px;
+    transform: scale(1);
 }
 
 div.curso2>p {
     font-weight: 400;
-    font-size: 1em; 
-    position: relative;
-    left: 12vw;
-    top: 11vh;
+    font-size: 1em;
     transition: 0.5s;
 }
 
-
+.curso3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 div.curso3>img {
-    position: relative;
-    left: 11vw;
-    top: 13vh;
     width: 3vw;
     height: 5.5vh;
-    border-radius: 5px;
+    border-radius: 3px;
+    transform: scale(1);
 }
 
 div.curso3>p {
     font-size: 1em;
     font-weight: 400;
-    position: relative;
-    left: 15vw;
-    top: 8vh;
 }
 
+.graduacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20.5%;
+    position: relative;
+    left: 31.5vw;
+    bottom: 30.5vh;
+}
+
+.inovar {
+    display: flex;
+    flex-direction: column;
+}
+
+div.inovar>img {
+    width: 20vw;
+    height: 25vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform: scale(1);
+}
+
+div.inovar>h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    position: absolute;
+    top: 18vh;
+    left: 1vw;
+}
+
+.SI {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0.5vw;
+    top: 1vh;
+}
+
+div.SI>img {
+    width: 3vw;
+    height: 5.5vh;
+    border-radius: 3px;
+    transform: scale(1);
+}
+
+div.SI>p {
+    font-size: 1em;
+    font-weight: 400;
+}
