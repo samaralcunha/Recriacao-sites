@@ -126,6 +126,11 @@ div.curso1>h1 {
 .curso2 { 
     display: flex;
     flex-direction: row;
+    transition: 0.2s;
+}
+
+.curso2:hover {
+    color:#40aa0b;
 }
 
 div.curso2>img {
@@ -133,7 +138,7 @@ div.curso2>img {
     left: 11vw;
     top: 11vh;
     width: 3vw;
-    height: 5vh;
+    height: 5.5vh;
     border-radius: 5px;
 }
 
@@ -143,4 +148,25 @@ div.curso2>p {
     position: relative;
     left: 12vw;
     top: 11vh;
+    transition: 0.5s;
 }
+
+
+
+div.curso3>img {
+    position: relative;
+    left: 11vw;
+    top: 13vh;
+    width: 3vw;
+    height: 5.5vh;
+    border-radius: 5px;
+}
+
+div.curso3>p {
+    font-size: 1em;
+    font-weight: 400;
+    position: relative;
+    left: 15vw;
+    top: 8vh;
+}
+
