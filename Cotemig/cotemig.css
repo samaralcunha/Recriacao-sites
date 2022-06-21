@@ -124,9 +124,10 @@ div.slogan>p {
 .escola {
     display: flex;
     flex-direction: column; 
-    height: 41vh;
     margin-right: 0.9em;
-    box-shadow: 2px 2px 10px whitesmoke;
+    height: 41vh;
+    width: 20vw;
+    box-shadow: 3px 3px 5px whitesmoke;
     border-radius: 3px;
 }
 
@@ -202,7 +203,8 @@ div.google>p {
     flex-direction: column;
     margin-right: 0.9em;
     height: 50vh;
-    box-shadow: 2px 2px 10px whitesmoke;
+    width: 20vw;
+    box-shadow: 3px 3px 5px whitesmoke;
     border-radius: 3px;
 }
 
@@ -299,7 +301,8 @@ div.CC>p {
     flex-direction: column;
     margin-right: 0.9em;
     height: 42vh;
-    box-shadow: 2px 2px 10px whitesmoke;
+    width: 20vw;
+    box-shadow: 3px 3px 5px whitesmoke;
     border-radius: 3px;
 }
 
@@ -370,8 +373,10 @@ div.DFSM>p {
 .cursos {
     display: flex;
     flex-direction: column;
+    margin-right: 0.9em;
     height: 36vh;
-    box-shadow: 2px 2px 10px whitesmoke;
+    width: 20vw;;
+    box-shadow: 3px 3px 5px whitesmoke;
     border-radius: 3px;
     transition: 0.5s;
 }
