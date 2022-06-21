@@ -98,7 +98,9 @@ div.ombro>p {
     font-size: 20px
 }
 
-.cursos {
+
+
+.escola {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,7 +111,7 @@ div.ombro>p {
 }
 
 
-div.curso1>img {
+div.tecnica>img {
     z-index: -1;
     width: 20vw;
     height: 25vh;
@@ -118,7 +120,7 @@ div.curso1>img {
     transform: scale(1);
 }
 
-div.curso1>h1 {
+div.tecnica>h1 {
     z-index: 1;
     color: white;
     font-weight: 700;
@@ -129,7 +131,7 @@ div.curso1>h1 {
     
 }
 
-.curso2 {
+.informatica {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -137,11 +139,11 @@ div.curso1>h1 {
     top: 26vh;
 }
 
-.curso2:hover {
+.informatica:hover {
     color: #40aa0b;
 }
 
-div.curso2>img {
+div.informatica>img {
     width: 3vw;
     height: 5.5vh;
     border-radius: 3px;
@@ -149,23 +151,23 @@ div.curso2>img {
     margin-right: 10px;
 }
 
-div.curso2>p {
+div.informatica>p {
     font-weight: 600;
     font-size: 0.8em;
     transition: 0.5s;
 }
 
-.curso3 {
+.google {
     display: flex;
     flex-direction: row;
     align-items: center;
     transition: 0.5s;
 }
-.curso3:hover {
+.google:hover {
     color: #40aa0b;
 }
 
-div.curso3>img {
+div.google>img {
     width: 3vw;
     height: 5.5vh;
     border-radius: 3px;
@@ -173,7 +175,7 @@ div.curso3>img {
     margin-right: 10px;
 }
 
-div.curso3>p {
+div.google>p {
     font-size: 0.8em;
     font-weight: 600;
 }
@@ -311,7 +313,7 @@ div.reinventar>h1 {
     font-weight: 700;
     font-size: 25px;
     position: absolute;
-    top: 15vh;
+    top: 18vh;
     left: 1vw;
 }
 
@@ -337,20 +339,72 @@ div.DSBD>p {
     font-weight: 600;
 }
 
-.DSFM {
+.DFSM {
     display: flex;
     flex-direction: row;
     align-items: center;
     position: relative;
     left: 31vw;
-    bottom: 29vh;
-    border: solid;
-   
+    bottom: 25vh;
 }
 
-div.DSFM>img {
+div.DFSM>img {
     width: 3.1vw;
     height: 5.5vh;
     border-radius: 3px;
     margin-right: 10px;
+}
+
+div.DFSM>p {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20.5%;
+    position: relative;
+    left: 76vw;
+    bottom: 109.5vh;
+}
+
+div.curto>img {
+    width: 20vw;
+    height: 25vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform: scale(1);
+    margin-right: 10px;
+}
+
+div.curto>h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    position: absolute;
+    top: 15vh;
+    left: 1vw;
+}
+
+.AR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    right: 0.1vw;
+    top: 3vh;
+}
+
+div.AR>img {
+    width: 3.1vw;
+    height: 5.5vh;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+div.AR>p {
+    font-size: 0.8em;
+    font-weight: 600;
 }
