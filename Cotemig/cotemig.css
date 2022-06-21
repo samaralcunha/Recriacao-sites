@@ -116,7 +116,6 @@ div.curso1>img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     transform: scale(1);
-    bottom: 28.5vh;
 }
 
 div.curso1>h1 {
@@ -124,14 +123,22 @@ div.curso1>h1 {
     color: white;
     font-weight: 700;
     font-size: 25px;
+    position: relative;
+    bottom: 10vh;
+    left: 1vw;
     
 }
 
 .curso2 {
     display: flex;
     flex-direction: row;
+    align-items: center;
     position: absolute;
     top: 26vh;
+}
+
+.curso2:hover {
+    color: #40aa0b;
 }
 
 div.curso2>img {
@@ -139,11 +146,12 @@ div.curso2>img {
     height: 5.5vh;
     border-radius: 3px;
     transform: scale(1);
+    margin-right: 10px;
 }
 
 div.curso2>p {
-    font-weight: 400;
-    font-size: 1em;
+    font-weight: 600;
+    font-size: 0.8em;
     transition: 0.5s;
 }
 
@@ -151,6 +159,10 @@ div.curso2>p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    transition: 0.5s;
+}
+.curso3:hover {
+    color: #40aa0b;
 }
 
 div.curso3>img {
@@ -158,11 +170,12 @@ div.curso3>img {
     height: 5.5vh;
     border-radius: 3px;
     transform: scale(1);
+    margin-right: 10px;
 }
 
 div.curso3>p {
-    font-size: 1em;
-    font-weight: 400;
+    font-size: 0.8em;
+    font-weight: 600;
 }
 
 .graduacao {
@@ -172,12 +185,7 @@ div.curso3>p {
     width: 20.5%;
     position: relative;
     left: 31.5vw;
-    bottom: 30.5vh;
-}
-
-.inovar {
-    display: flex;
-    flex-direction: column;
+    bottom: 30vh;
 }
 
 div.inovar>img {
@@ -186,6 +194,7 @@ div.inovar>img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     transform: scale(1);
+    margin-right: 10px;
 }
 
 div.inovar>h1 {
@@ -200,9 +209,15 @@ div.inovar>h1 {
 .SI {
     display: flex;
     flex-direction: row;
+    align-items: center;
     position: relative;
     left: 0.5vw;
     top: 1vh;
+    transition: 0.5s;
+}
+
+.SI:hover {
+    color: #40aa0b;
 }
 
 div.SI>img {
@@ -210,9 +225,132 @@ div.SI>img {
     height: 5.5vh;
     border-radius: 3px;
     transform: scale(1);
+    margin-right: 10px;
 }
 
 div.SI>p {
-    font-size: 1em;
-    font-weight: 400;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.ADS {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0.5vw;
+    top: 3vh;
+    transition: 0.5s;
+}
+
+.ADS:hover {
+    color: #40aa0b
+}
+
+
+div.ADS>img {
+    width: 3.1vw;
+    height: 5.3vh;
+    border-radius: 3px;
+    transform: scale(1);
+    margin-right: 10px;
+}
+
+div.ADS>p {
+    font-size: 0.8em;
+    font-weight: 600;;
+}
+
+.CC {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 0.5vw;
+    top: 6vh;
+}
+
+div.CC>img {
+    width: 3.1vw;
+    height: 5.3vh;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+div.CC>p {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.pós{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20.5%;
+    position: relative;
+    left: 22vw;
+    bottom: 41.5vh;
+}
+
+.reinventar {
+    position: relative;
+    left: 31vw;
+    bottom: 30vh;
+}
+
+div.reinventar>img {
+    width: 20vw;
+    height: 25vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform: scale(1);
+    margin-right: 10px;
+}
+
+div.reinventar>h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    position: absolute;
+    top: 15vh;
+    left: 1vw;
+}
+
+.DSBD {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 31vw;
+    bottom: 29vh;
+
+}
+
+div.DSBD>img {
+    width: 3.1vw;
+    height: 5.5vh;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+div.DSBD>p {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.DSFM {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 31vw;
+    bottom: 29vh;
+    border: solid;
+   
+}
+
+div.DSFM>img {
+    width: 3.1vw;
+    height: 5.5vh;
+    border-radius: 3px;
+    margin-right: 10px;
 }
