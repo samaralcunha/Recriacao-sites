@@ -1,8 +1,11 @@
 * {
     margin: 0;
+    border: none;
     list-style: none;
     font-family: 'Lato', sans-serif;
 }
+
+
 
 div.cabeca>img {
     height: 40px;
@@ -11,13 +14,13 @@ div.cabeca>img {
 .cabeca {
     z-index: 2;
     height: 4em;
+    width: 100vw;
     background: rgba(0, 0, 0, .75);
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     position: fixed;
-    width: 100vw;
 }
 
 
@@ -40,23 +43,25 @@ li:hover {
     padding: .6rem .8rem;
 }
 
+
 div.carrosel>img {
-    max-width: 85.4em;
+    width: 100%;
+    height: 530px;
 }
 
 div.carrosel>h1 {
     color: white;
     font-weight: 800;
-    position: relative;
-    bottom: 35vh;
+    position: absolute;
+    bottom: 62vh;
     left: 15vw;
 }
 
 div.carrosel>p {
     color: white;
     font-weight: 400;
-    position: relative;
-    bottom: 33vh;
+    position: absolute;
+    bottom: 58vh;
     left: 15vw;
 }
 
@@ -66,48 +71,63 @@ div.carrosel>p {
     color: white;
     border-radius: 8px;
     text-align: center;
-    font-weight: 400;
-    width: 18em;
-    padding: 10px;
-    position: relative;
-    bottom: 28vh;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    height: 0.9em;
+    width: 20em;
+    padding: 1em;
+    position: absolute;
+    bottom: 45vh;
     left: 15vw;
+}
+
+div.botton>p {
+    font-size: 14px;
 }
 
 .bolinha {
     background: #40aa0b;
     border-radius: 10px;
     height: 8.5px;
-    position: relative;
-    bottom: 25vh;
+    position: absolute;
+    bottom: 40vh;
     left: 15vw;
 }
 
-#bolaBranca {
-    background: white;
+.slogan {
+    padding: 0;
+}
+
+.slogan h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
+    padding-top: 1em;
+}
+
+div.slogan>p {
+    color: #424242;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px
 }
 
 .ombro {
-    text-align: center;
-    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-left: 5em;
+    padding-top: 5em;
 }
-
-div.ombro>p {
-    text-align: center;
-    font-weight: 300;
-    font-size: 20px
-}
-
-
 
 .escola {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 20.5%;
-    position: relative;
-    left: 10vw;
-    top: 10vh;
+    flex-direction: column; 
+    height: 41vh;
+    margin-right: 0.9em;
+    box-shadow: 2px 2px 10px whitesmoke;
+    border-radius: 3px;
 }
 
 
@@ -115,8 +135,8 @@ div.tecnica>img {
     z-index: -1;
     width: 20vw;
     height: 25vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     transform: scale(1);
 }
 
@@ -125,18 +145,16 @@ div.tecnica>h1 {
     color: white;
     font-weight: 700;
     font-size: 25px;
-    position: relative;
-    bottom: 10vh;
-    left: 1vw;
-    
+    position: absolute;
+    top: 130vh;
+    left: 8vw;
 }
 
 .informatica {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    position: absolute;
-    top: 26vh;
+    height: 10vh;
+    transition: 0.5s;
 }
 
 .informatica:hover {
@@ -159,7 +177,6 @@ div.informatica>p {
 
 .google {
     display: flex;
-    flex-direction: row;
     align-items: center;
     transition: 0.5s;
 }
@@ -183,20 +200,18 @@ div.google>p {
 .graduacao {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 20.5%;
-    position: relative;
-    left: 31.5vw;
-    bottom: 30vh;
+    margin-right: 0.9em;
+    height: 50vh;
+    box-shadow: 2px 2px 10px whitesmoke;
+    border-radius: 3px;
 }
 
 div.inovar>img {
     width: 20vw;
     height: 25vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     transform: scale(1);
-    margin-right: 10px;
 }
 
 div.inovar>h1 {
@@ -204,17 +219,14 @@ div.inovar>h1 {
     font-weight: 700;
     font-size: 25px;
     position: absolute;
-    top: 18vh;
-    left: 1vw;
+    top: 133vh;
+    left: 31vw;
 }
 
 .SI {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    position: relative;
-    left: 0.5vw;
-    top: 1vh;
+    height: 10vh;
     transition: 0.5s;
 }
 
@@ -238,9 +250,7 @@ div.SI>p {
 .ADS {
     display: flex;
     flex-direction: row;
-    position: relative;
-    left: 0.5vw;
-    top: 3vh;
+    height: 10vh;
     transition: 0.5s;
 }
 
@@ -252,7 +262,7 @@ div.SI>p {
 div.ADS>img {
     width: 3.1vw;
     height: 5.3vh;
-    border-radius: 3px;
+    border-radius: 5px;
     transform: scale(1);
     margin-right: 10px;
 }
@@ -264,11 +274,12 @@ div.ADS>p {
 
 .CC {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    position: relative;
-    left: 0.5vw;
-    top: 6vh;
+    transition: 0.5s;
+}
+
+.CC:hover {
+    color:#40aa0b;
 }
 
 div.CC>img {
@@ -283,20 +294,13 @@ div.CC>p {
     font-weight: 600;
 }
 
-.pós{
+.pos{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 20.5%;
-    position: relative;
-    left: 22vw;
-    bottom: 41.5vh;
-}
-
-.reinventar {
-    position: relative;
-    left: 31vw;
-    bottom: 30vh;
+    margin-right: 0.9em;
+    height: 42vh;
+    box-shadow: 2px 2px 10px whitesmoke;
+    border-radius: 3px;
 }
 
 div.reinventar>img {
@@ -313,18 +317,19 @@ div.reinventar>h1 {
     font-weight: 700;
     font-size: 25px;
     position: absolute;
-    top: 18vh;
-    left: 1vw;
+    top: 133vh;
+    left: 54vw;
 }
 
 .DSBD {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    position: relative;
-    left: 31vw;
-    bottom: 29vh;
+    height: 60px;
+    transition: 0.5s;
+}
 
+.DSBD:hover {
+    color:#40aa0b
 }
 
 div.DSBD>img {
@@ -343,9 +348,11 @@ div.DSBD>p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
-    left: 31vw;
-    bottom: 25vh;
+    transition: 0.5s;
+}
+
+.DFSM:hover {
+    color:#40aa0b;
 }
 
 div.DFSM>img {
@@ -363,11 +370,14 @@ div.DFSM>p {
 .cursos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 20.5%;
-    position: relative;
-    left: 76vw;
-    bottom: 109.5vh;
+    height: 36vh;
+    box-shadow: 2px 2px 10px whitesmoke;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.cursos:hover {
+    color:#40aa0b;
 }
 
 div.curto>img {
@@ -384,17 +394,14 @@ div.curto>h1 {
     font-weight: 700;
     font-size: 25px;
     position: absolute;
-    top: 15vh;
-    left: 1vw;
+    top: 130vh;
 }
 
 .AR {
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
-    right: 0.1vw;
-    top: 3vh;
+    height: 60px;
 }
 
 div.AR>img {
