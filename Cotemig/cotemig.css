@@ -117,17 +117,17 @@ div.slogan>p {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    padding-left: 5em;
+    padding-left: 3em;
     padding-top: 5em;
 }
 
 .escola {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     margin-right: 0.9em;
     height: 41vh;
     width: 20vw;
-    box-shadow: 3px 3px 5px whitesmoke;
+    box-shadow: 5px 5px 5px whitesmoke;
     border-radius: 3px;
 }
 
@@ -181,6 +181,7 @@ div.informatica>p {
     align-items: center;
     transition: 0.5s;
 }
+
 .google:hover {
     color: #40aa0b;
 }
@@ -204,7 +205,7 @@ div.google>p {
     margin-right: 0.9em;
     height: 50vh;
     width: 20vw;
-    box-shadow: 3px 3px 5px whitesmoke;
+    box-shadow: 5px 5px 5px whitesmoke;
     border-radius: 3px;
 }
 
@@ -271,7 +272,8 @@ div.ADS>img {
 
 div.ADS>p {
     font-size: 0.8em;
-    font-weight: 600;;
+    font-weight: 600;
+    ;
 }
 
 .CC {
@@ -281,7 +283,7 @@ div.ADS>p {
 }
 
 .CC:hover {
-    color:#40aa0b;
+    color: #40aa0b;
 }
 
 div.CC>img {
@@ -296,13 +298,13 @@ div.CC>p {
     font-weight: 600;
 }
 
-.pos{
+.pos {
     display: flex;
     flex-direction: column;
     margin-right: 0.9em;
     height: 42vh;
     width: 20vw;
-    box-shadow: 3px 3px 5px whitesmoke;
+    box-shadow: 5px 5px 5px whitesmoke;
     border-radius: 3px;
 }
 
@@ -332,7 +334,7 @@ div.reinventar>h1 {
 }
 
 .DSBD:hover {
-    color:#40aa0b
+    color: #40aa0b
 }
 
 div.DSBD>img {
@@ -355,7 +357,7 @@ div.DSBD>p {
 }
 
 .DFSM:hover {
-    color:#40aa0b;
+    color: #40aa0b;
 }
 
 div.DFSM>img {
@@ -375,14 +377,14 @@ div.DFSM>p {
     flex-direction: column;
     margin-right: 0.9em;
     height: 36vh;
-    width: 20vw;;
-    box-shadow: 3px 3px 5px whitesmoke;
+    width: 20vw;
+    box-shadow: 5px 5px 5px whitesmoke;
     border-radius: 3px;
     transition: 0.5s;
 }
 
 .cursos:hover {
-    color:#40aa0b;
+    color: #40aa0b;
 }
 
 div.curto>img {
@@ -419,4 +421,114 @@ div.AR>img {
 div.AR>p {
     font-size: 0.8em;
     font-weight: 600;
+}
+
+.unidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+div.unidades p {
+    color: #424242;
+    line-height: 32px;
+    padding-left: 20px;
+}
+
+.barroca {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-right: 1em;
+    box-shadow: 1px 1px 2px rgb(187, 187, 187);
+    transition: 1s;
+}
+
+.barroca:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgb(187, 187, 187);
+}
+
+div.barroca>img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #424242;
+}
+
+div.barroca>h4 {
+    color: #424242;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.floresta {
+    margin-right: 1em;
+    box-shadow: 1px 1px 2px rgb(187, 187, 187);
+    transition: 1s;
+}
+
+.floresta:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgb(187, 187, 187);
+}
+
+div.floresta>img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #424242;
+}
+
+div.floresta>h4 {
+    color: #424242;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.escritorio {
+    box-shadow: 1px 1px 2px rgb(187, 187, 187);
+    transition: 1s;
+}
+
+.escritorio:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgb(187, 187, 187);
+}
+
+div.escritorio>img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #424242;
+}
+
+div.escritorio>h4 {
+    color: #424242;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section p {
+    color: #2e2e2e;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+section h1 {
+    color: #40aa0b;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.joelho {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
 }
