@@ -116,6 +116,7 @@ div.slogan>p {
 .ombro {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap:wrap;
     align-content: center;
     padding-left: 3em;
     padding-top: 5em;
@@ -426,6 +427,7 @@ div.AR>p {
 .unidades {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
 }
