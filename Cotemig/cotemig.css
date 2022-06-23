@@ -15,7 +15,7 @@ div.cabeca>img {
     z-index: 2;
     height: 4em;
     width: 100vw;
-    background: rgba(0, 0, 0, .75);
+    background: rgba(0, 0, 0, .55);
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -52,7 +52,6 @@ div.carrosel>img {
 div.carrosel>h1 {
     color: white;
     font-weight: 800;
-    position: absolute;
     bottom: 62vh;
     left: 15vw;
 }
@@ -60,7 +59,6 @@ div.carrosel>h1 {
 div.carrosel>p {
     color: white;
     font-weight: 400;
-    position: absolute;
     bottom: 58vh;
     left: 15vw;
 }
@@ -76,7 +74,6 @@ div.carrosel>p {
     height: 0.9em;
     width: 20em;
     padding: 1em;
-    position: absolute;
     bottom: 45vh;
     left: 15vw;
 }
@@ -89,7 +86,6 @@ div.botton>p {
     background: #40aa0b;
     border-radius: 10px;
     height: 8.5px;
-    position: absolute;
     bottom: 40vh;
     left: 15vw;
 }
@@ -141,9 +137,8 @@ div.tecnica>img {
 div.tecnica>h1 {
     z-index: 1;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 25px;
-    position: absolute;
     top: 130vh;
     left: 8vw;
 }
@@ -216,9 +211,8 @@ div.inovar>img {
 
 div.inovar>h1 {
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 25px;
-    position: absolute;
     top: 133vh;
     left: 31vw;
 }
@@ -316,9 +310,8 @@ div.reinventar>img {
 
 div.reinventar>h1 {
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 25px;
-    position: absolute;
     top: 133vh;
     left: 54vw;
 }
@@ -395,9 +388,8 @@ div.curto>img {
 
 div.curto>h1 {
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 25px;
-    position: absolute;
     top: 130vh;
 }
 
@@ -439,13 +431,13 @@ div.unidades p {
     flex-direction: column;
     align-items: baseline;
     margin-right: 1em;
-    box-shadow: 1px 1px 2px rgb(187, 187, 187);
+    box-shadow: 1px 1px 2px rgb(185, 185, 185);
     transition: 1s;
 }
 
 .barroca:hover {
     transform: scale(1.05);
-    box-shadow: 5px 5px 10px rgb(187, 187, 187);
+    box-shadow: 5px 5px 10px rgb(185, 185, 185);
 }
 
 div.barroca>img {
@@ -462,13 +454,13 @@ div.barroca>h4 {
 
 .floresta {
     margin-right: 1em;
-    box-shadow: 1px 1px 2px rgb(187, 187, 187);
+    box-shadow: 1px 1px 2px rgb(185, 185, 185);
     transition: 1s;
 }
 
 .floresta:hover {
     transform: scale(1.05);
-    box-shadow: 5px 5px 10px rgb(187, 187, 187);
+    box-shadow: 5px 5px 10px rgb(185, 185, 185);
 }
 
 div.floresta>img {
@@ -484,13 +476,13 @@ div.floresta>h4 {
 }
 
 .escritorio {
-    box-shadow: 1px 1px 2px rgb(187, 187, 187);
+    box-shadow: 1px 1px 2px rgb(185, 185, 185);
     transition: 1s;
 }
 
 .escritorio:hover {
     transform: scale(1.05);
-    box-shadow: 5px 5px 10px rgb(187, 187, 187);
+    box-shadow: 5px 5px 10px rgb(185, 185, 185);
 }
 
 div.escritorio>img {
@@ -529,4 +521,30 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     margin-top: 80px;
+}
+
+.joelho {
+    display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+}
+div.estudo>img {
+    transform: scale(0.5);
+    border-radius: 15px;
+}
+
+div.hacker>img {
+    transform: scale(0.5);
+    border-radius: 15px;
+}
+
+div.cnsd>img{
+    transform: scale(0.5);
+    border-radius: 15px;
+}
+
+div.visual>img{
+    transform: scale(0.5);
+    border-radius: 15px;
+    position: relative;
 }
