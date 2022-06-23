@@ -52,6 +52,7 @@ div.carrosel>img {
 div.carrosel>h1 {
     color: white;
     font-weight: 800;
+    position: absolute;
     bottom: 62vh;
     left: 15vw;
 }
@@ -59,6 +60,7 @@ div.carrosel>h1 {
 div.carrosel>p {
     color: white;
     font-weight: 400;
+    position: absolute;
     bottom: 58vh;
     left: 15vw;
 }
@@ -74,6 +76,7 @@ div.carrosel>p {
     height: 0.9em;
     width: 20em;
     padding: 1em;
+    position: absolute;
     bottom: 45vh;
     left: 15vw;
 }
@@ -86,6 +89,7 @@ div.botton>p {
     background: #40aa0b;
     border-radius: 10px;
     height: 8.5px;
+    position: absolute;
     bottom: 40vh;
     left: 15vw;
 }
