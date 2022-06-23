@@ -143,6 +143,7 @@ div.tecnica>h1 {
     color: white;
     font-weight: 500;
     font-size: 25px;
+    position: absolute;
     top: 130vh;
     left: 8vw;
 }
@@ -217,6 +218,7 @@ div.inovar>h1 {
     color: white;
     font-weight: 500;
     font-size: 25px;
+    position: absolute;
     top: 133vh;
     left: 31vw;
 }
@@ -268,7 +270,6 @@ div.ADS>img {
 div.ADS>p {
     font-size: 0.8em;
     font-weight: 600;
-    ;
 }
 
 .CC {
@@ -316,6 +317,7 @@ div.reinventar>h1 {
     color: white;
     font-weight: 500;
     font-size: 25px;
+    position: absolute;
     top: 133vh;
     left: 54vw;
 }
@@ -394,6 +396,7 @@ div.curto>h1 {
     color: white;
     font-weight: 500;
     font-size: 25px;
+    position: absolute;
     top: 130vh;
 }
 
