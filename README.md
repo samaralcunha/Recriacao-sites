@@ -1,13 +1,4 @@
 # Recriacao sites
-
-<h1 align="center" >Coteimg</h1>
-<img src="https://lucassimaog6.github.io/Reproducao_de_Layout/cotemig.png" width="800px"/>
-
-### [Site original](https://cotemig.com.br/)
-
-### [Recriação](https://samaralcunha.github.io/Recriacao-sites/Cotemig)
-
-
 <h1 align="center" >Niko</h1>
 <img src="https://lucassimaog6.github.io/Reproducao_de_Layout/niko.png" width="800px"/>
 
